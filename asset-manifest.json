@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/password-manager/static/css/main.66ab046b.chunk.css",
-    "main.js": "/password-manager/static/js/main.f74587e6.chunk.js",
-    "main.js.map": "/password-manager/static/js/main.f74587e6.chunk.js.map",
+    "main.js": "/password-manager/static/js/main.39011f0e.chunk.js",
+    "main.js.map": "/password-manager/static/js/main.39011f0e.chunk.js.map",
     "runtime-main.js": "/password-manager/static/js/runtime-main.11949541.js",
     "runtime-main.js.map": "/password-manager/static/js/runtime-main.11949541.js.map",
-    "static/js/2.7aafdc85.chunk.js": "/password-manager/static/js/2.7aafdc85.chunk.js",
-    "static/js/2.7aafdc85.chunk.js.map": "/password-manager/static/js/2.7aafdc85.chunk.js.map",
+    "static/js/2.89380fe3.chunk.js": "/password-manager/static/js/2.89380fe3.chunk.js",
+    "static/js/2.89380fe3.chunk.js.map": "/password-manager/static/js/2.89380fe3.chunk.js.map",
     "static/js/3.202d47e4.chunk.js": "/password-manager/static/js/3.202d47e4.chunk.js",
     "static/js/3.202d47e4.chunk.js.map": "/password-manager/static/js/3.202d47e4.chunk.js.map",
     "index.html": "/password-manager/index.html",
     "static/css/main.66ab046b.chunk.css.map": "/password-manager/static/css/main.66ab046b.chunk.css.map",
-    "static/js/2.7aafdc85.chunk.js.LICENSE.txt": "/password-manager/static/js/2.7aafdc85.chunk.js.LICENSE.txt"
+    "static/js/2.89380fe3.chunk.js.LICENSE.txt": "/password-manager/static/js/2.89380fe3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.11949541.js",
-    "static/js/2.7aafdc85.chunk.js",
+    "static/js/2.89380fe3.chunk.js",
     "static/css/main.66ab046b.chunk.css",
-    "static/js/main.f74587e6.chunk.js"
+    "static/js/main.39011f0e.chunk.js"
   ]
 }
