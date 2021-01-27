@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.col-1-2{width: 50%;}
+.col-1-3{width: 33.33%;}
+.col-2-3{width: 66.66%;}
+.col-1-4{width: 25%;}
+.col-3-4{width: 75%;}
+.col-1-5{width: 20%;}
+.col-1-6{width: 16.67%;}
+.col-5-6{width: 83.33%;}
+.col-1-7 {width: 14.29%;}
+.col-1-8 {width: 12.5%;}
+.col-1-9 {width: 11.11%;}
+.col-1-10 {width: 10%;}
+.col-4-5 {width: 80%;}
+.col-9-10 {width: 90%;}
+
+.wrapper {
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+}
+input[name="login"],
+input[name="pass"] {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+input[name="addName"],
+input[name="addLogin"],
+input[name="addPass"],
+input[name="Name"],
+input[name="Login"],
+input[name="Pass"] {
+    width: 25%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+input[name="login"].error {
+  border: 1px solid red;
+}
+label[for="error"] {
+  position: relative;
+}
+label.error[for="error"]:after {
+  content: "Incorrect login or password";
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  width: max-content;
+  bottom: 10px;
+  right: -20px;
+}
+label.error[for="sign-error"] {
+  position: relative;
+}
+label.error[for="sign-error"]:after {
+  content: "Enter login and password";
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  width: max-content;
+  bottom: 10px;
+  right: -7px;
+}
+input.input {
+  width: 25%;
+  height: 30px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background-color: #d3d3d3;
+  color: #000;
+}
+button {
+  height: 30px;
+  color: #fff; 
+  background-color: #ff1a2d;
+  border-radius: 3px;
+  font-size: 17px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+button:hover {
+  color: #000;
+  border: 1px solid #ff1a2d;
+  background-color: #fff;
+  transition: 0.3s;
+}
+button.small-button {
+  width: max-content;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #0095ff;
+  margin-top: 10px;
+}
+button.small-button:hover {
+  border: none;
+  text-decoration: underline;
+}
+button.big-button {
+  width: 100px;
+  height: 45px;
+  padding: 10px;
+  background-color: #0095ff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+button.big-button:hover {
+  border: 1px solid #0095ff;
+  background-color: transparent;
+}
+.edit-button {
+  background-color: #696969;
+}
+.edit-button:hover {
+  background-color: transparent;
+  border: 1px solid #696969;
+}
+.save-button {
+  background-color: #21d100;
+  display: none;
+}
+.save-button:hover {
+  border: 1px solid #21d100;
+  background-color: transparent;
+}
+.show-button {
+  color: #000;
+  background-color: transparent;
+}
+.show-button:hover {
+  border: 1px solid #000;
+}
+ul {
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+ul li {
+  width: 147px;
+  text-align: center;
+}
