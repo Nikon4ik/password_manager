@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/password_manager/static/css/main.af50bd2c.chunk.css",
-    "main.js": "/password_manager/static/js/main.1305bab7.chunk.js",
-    "main.js.map": "/password_manager/static/js/main.1305bab7.chunk.js.map",
-    "runtime-main.js": "/password_manager/static/js/runtime-main.e1eaf9f8.js",
-    "runtime-main.js.map": "/password_manager/static/js/runtime-main.e1eaf9f8.js.map",
-    "static/js/2.1a962cf2.chunk.js": "/password_manager/static/js/2.1a962cf2.chunk.js",
-    "static/js/2.1a962cf2.chunk.js.map": "/password_manager/static/js/2.1a962cf2.chunk.js.map",
-    "static/js/3.202d47e4.chunk.js": "/password_manager/static/js/3.202d47e4.chunk.js",
-    "static/js/3.202d47e4.chunk.js.map": "/password_manager/static/js/3.202d47e4.chunk.js.map",
-    "index.html": "/password_manager/index.html",
-    "static/css/main.af50bd2c.chunk.css.map": "/password_manager/static/css/main.af50bd2c.chunk.css.map",
-    "static/js/2.1a962cf2.chunk.js.LICENSE.txt": "/password_manager/static/js/2.1a962cf2.chunk.js.LICENSE.txt"
+    "main.css": "/passwor_manager/static/css/main.af50bd2c.chunk.css",
+    "main.js": "/passwor_manager/static/js/main.7f719906.chunk.js",
+    "main.js.map": "/passwor_manager/static/js/main.7f719906.chunk.js.map",
+    "runtime-main.js": "/passwor_manager/static/js/runtime-main.858d0b97.js",
+    "runtime-main.js.map": "/passwor_manager/static/js/runtime-main.858d0b97.js.map",
+    "static/js/2.1a962cf2.chunk.js": "/passwor_manager/static/js/2.1a962cf2.chunk.js",
+    "static/js/2.1a962cf2.chunk.js.map": "/passwor_manager/static/js/2.1a962cf2.chunk.js.map",
+    "static/js/3.202d47e4.chunk.js": "/passwor_manager/static/js/3.202d47e4.chunk.js",
+    "static/js/3.202d47e4.chunk.js.map": "/passwor_manager/static/js/3.202d47e4.chunk.js.map",
+    "index.html": "/passwor_manager/index.html",
+    "static/css/main.af50bd2c.chunk.css.map": "/passwor_manager/static/css/main.af50bd2c.chunk.css.map",
+    "static/js/2.1a962cf2.chunk.js.LICENSE.txt": "/passwor_manager/static/js/2.1a962cf2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1eaf9f8.js",
+    "static/js/runtime-main.858d0b97.js",
     "static/js/2.1a962cf2.chunk.js",
     "static/css/main.af50bd2c.chunk.css",
-    "static/js/main.1305bab7.chunk.js"
+    "static/js/main.7f719906.chunk.js"
   ]
 }
